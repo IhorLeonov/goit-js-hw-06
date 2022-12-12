@@ -5,8 +5,6 @@ const lengthEl = input.dataset.length;
 input.addEventListener('blur', inputOnBlur);
 
 function inputOnBlur(event) {
-  // console.log(event.currentTarget.value.length);
-  // console.log(lengthEl);
   input.classList.add('invalid');
 
   if (event.currentTarget.value.length == lengthEl) {
@@ -18,4 +16,3 @@ function inputOnBlur(event) {
     input.classList.remove('valid');
   }
 }
-// console.log(input);
