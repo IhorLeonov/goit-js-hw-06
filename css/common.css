@@ -31,3 +31,8 @@ button {
   flex-direction: column;
   gap: 30px;
 }
+
+.box {
+  width: 30px;
+  height: 30px;
+}
