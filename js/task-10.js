@@ -43,6 +43,7 @@ function createBoxes(amount) {
   }
   div.insertAdjacentHTML('beforeend', markup);
 }
+
 /**
   |============================
   | Была заминка с передачей аргумента в параметр amount. Я нагуглил такой способ () => createBoxes(currentInputValue)); 
