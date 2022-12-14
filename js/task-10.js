@@ -42,6 +42,10 @@ function createBoxes(amount) {
     height += 10;
   }
   div.insertAdjacentHTML('beforeend', markup);
+
+  if (amount === 0) {
+    alert('Выбери количество!');
+  }
 }
 
 /**
